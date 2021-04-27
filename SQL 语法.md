@@ -798,3 +798,7 @@ SET PASSWROD FOR myuser = Password('new_password');
 ## SQL练习时出现的额外内容
 emp_no 为奇数 ： emp_no%2=1 
 emp_no 为偶数 ： emp_no%2!=1
+
+ROUND(x,3)
+Format(x,3)
+x列数值除以3，round返回的数值没逗号， format 返回的数值有逗号。
