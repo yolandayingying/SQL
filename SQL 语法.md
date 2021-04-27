@@ -802,3 +802,6 @@ emp_no 为偶数 ： emp_no%2!=1
 ROUND(x,3)
 Format(x,3)
 x列数值除以3，round返回的数值没逗号， format 返回的数值有逗号。
+
+date1>date2 0天
+datediff(date1, date2) > 0的形式筛选
