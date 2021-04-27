@@ -35,6 +35,8 @@
     * [二十二、字符集](#二十二字符集)
     * [二十三、权限管理](#二十三权限管理)
     * [参考资料](#参考资料)
+    * [SQL练习时出现的额外内容](#SQL练习)
+    
 <!-- GFM-TOC -->
 
 
@@ -792,3 +794,7 @@ SET PASSWROD FOR myuser = Password('new_password');
 ## 参考资料
 
 - BenForta. SQL 必知必会 [M]. 人民邮电出版社, 2013.
+
+## SQL练习时出现的额外内容
+emp_no 为奇数 ： emp_no%2=1 
+emp_no 为偶数 ： emp_no%2!=1
