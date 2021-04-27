@@ -186,7 +186,11 @@ SELECT *
 FROM mytable
 LIMIT 2, 3;
 ```
-
+查询非某数字（not in）
+```sql
+SELECT emp_no FROM employees
+WHERE emp_no NOT IN (SELECT emp_no FROM dept_manager);
+```
 ## 八、排序
 
 -   **ASC**  ：升序（默认）
