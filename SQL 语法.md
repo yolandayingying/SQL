@@ -533,11 +533,11 @@ orders 表：
 
 ## 十六、组合查询
 
--- EXPECT  集合差运算
+-- EXPECT  集合差运算(mysql不支持）
  
 -- UNION  集合并运算
  
--- INTERSECT 集合交运算
+-- INTERSECT 集合交运算(mysql不支持）
     
 使用   **UNION**   来组合两个查询，如果第一个查询返回 M 行，第二个查询返回 N 行，那么组合查询的结果一般为 M+N 行。
 
